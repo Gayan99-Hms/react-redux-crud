@@ -1,13 +1,9 @@
-// store/configureStore.js
-
-// store/configureStore.js
 
 import { configureStore } from '@reduxjs/toolkit';
-import { rootReducer } from './rootReducer'; // Import the named export
+import { rootReducer } from './rootReducer'; 
 
 const store = configureStore({
-  reducer: rootReducer, // Use the named export here
-  // Add middleware, dev tools configuration, etc., if needed
+  reducer: rootReducer, 
 });
 
 export default store;

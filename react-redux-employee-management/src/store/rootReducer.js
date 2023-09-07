@@ -1,4 +1,3 @@
-// store/rootReducer.js
 
 import { combineReducers } from 'redux';
 import { addEmployee, updateEmployee, deleteEmployee } from './employeeSlice'; 
